@@ -18,3 +18,49 @@ p, li {
     line-height: 28px;
     font-size: large;
 }
+
+.modalAd {
+    position: fixed;
+    top: 10%;
+    left: 25vw;
+    width: 50%;
+    min-height: 30%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    color: white;
+    display: none;
+}
+.opacityNull {
+    opacity: 0;
+}
+.modalAd p {
+    font-size: 3em;
+    text-align: center;
+}
+
+.modalAd button {
+    background-color: #403aff;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#btnPsy {
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 250px;
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .modalAd {
+        width: 95%;
+        left: 0;
+    }
+}
